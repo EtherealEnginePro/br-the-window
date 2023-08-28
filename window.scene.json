@@ -57,10 +57,10 @@
           "name": "fog",
           "props": {
             "type": "linear",
-            "color": "#FFFFFF",
+            "color": "#c3c3b9",
             "density": 0.005,
             "near": 1,
-            "far": 1000,
+            "far": 500,
             "timeScale": 1,
             "height": 0.05
           }
@@ -131,9 +131,9 @@
           "name": "skybox",
           "props": {
             "backgroundColor": 0,
-            "equirectangularPath": "",
+            "equirectangularPath": "__$project$__/br-the-window/assets/HighnoonFurryclouds.ktx2",
             "cubemapPath": "__$project$__/default-project/assets/skyboxsun25deg/",
-            "backgroundType": 1,
+            "backgroundType": 2,
             "skyboxProps": {
               "turbidity": 10,
               "rayleigh": 1,
@@ -200,7 +200,7 @@
             "position": {
               "x": 0,
               "y": 0,
-              "z": 0
+              "z": 52
             },
             "rotation": {
               "x": 5.053215498074303e-16,
@@ -281,15 +281,15 @@
               "z": 0
             },
             "rotation": {
-              "x": 0.246907937403593,
+              "x": 0.24690793740359296,
               "y": 0.28965548016032816,
-              "z": 0.07761295437009143,
+              "z": 0.0776129543700914,
               "w": 0.9214729527089437
             },
             "scale": {
               "x": 1,
               "y": 1,
-              "z": 0.9999999999999999
+              "z": 0.9999999999999998
             }
           }
         },
@@ -314,7 +314,7 @@
       "index": 5,
       "name": "directional light"
     },
-    "e00fe241-d149-4530-b71c-856d939e5a14": {
+    "9f7faeec-4910-4a8e-85a4-c2200f8cafa9": {
       "components": [
         {
           "name": "transform",
@@ -340,7 +340,7 @@
         {
           "name": "gltf-model",
           "props": {
-            "src": "__$project$__/br-the-window/assets/hub.glb",
+            "src": "__$project$__/br-the-window/assets/hubworld_v2-transformed.glb",
             "generateBVH": true,
             "avoidCameraOcclusion": false
           }
