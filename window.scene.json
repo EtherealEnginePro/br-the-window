@@ -314,8 +314,28 @@
       "index": 5,
       "name": "directional light"
     },
-    "fa808a43-3d3a-493d-90f7-95965b4a0d86": {
+    "a19168b2-86ad-4304-8c3a-41905659e83f": {
       "components": [
+        {
+          "name": "gltf-model",
+          "props": {
+            "src": "__$project$__/br-the-window/assets/hubworld_v4-transformed.glb",
+            "generateBVH": true,
+            "avoidCameraOcclusion": false
+          }
+        },
+        {
+          "name": "loop-animation",
+          "props": {
+            "activeClipIndex": -1,
+            "animationSpeed": 1,
+            "hasAvatarAnimations": false
+          }
+        },
+        {
+          "name": "visible",
+          "props": {}
+        },
         {
           "name": "transform",
           "props": {
@@ -336,26 +356,6 @@
               "z": 1
             }
           }
-        },
-        {
-          "name": "gltf-model",
-          "props": {
-            "src": "__$project$__/br-the-window/assets/hubworld_v2-transformed.glb",
-            "generateBVH": true,
-            "avoidCameraOcclusion": false
-          }
-        },
-        {
-          "name": "loop-animation",
-          "props": {
-            "activeClipIndex": -1,
-            "animationSpeed": 1,
-            "hasAvatarAnimations": false
-          }
-        },
-        {
-          "name": "visible",
-          "props": {}
         }
       ],
       "parent": "d32b1c4e-d08e-4fb0-9107-4c88a281ee71",
